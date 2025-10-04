@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Imports the Inter font, which is used for a clean, professional look
+  and is referenced in the project's Tailwind configuration.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Apply Inter font globally to the application */
+body {
+  font-family: 'Inter', sans-serif;
+}
